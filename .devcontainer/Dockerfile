@@ -15,7 +15,7 @@ RUN \
 
 COPY .bashrc /root/.bashrc
 
-#WORKDIR /workspaces
+WORKDIR /work
 
 RUN conda init bash
 
