@@ -15,8 +15,8 @@
 			"type": "volume"
 		},
 		{
-			"source": "workspaces",
-			"target": "/workspaces",
+			"source": "work",
+			"target": "/work",
 			"type": "volume"
 		},
 
