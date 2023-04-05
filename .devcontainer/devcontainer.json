@@ -13,13 +13,7 @@
 			"source": "conda_envs",
 			"target": "/opt/conda/envs",
 			"type": "volume"
-		},
-		{
-			"source": "work",
-			"target": "/work",
-			"type": "volume"
-		},
-
+		}
     ],
     "features": {
         //"ghcr.io/devcontainers/features/python:1": "none",
@@ -37,7 +31,7 @@
 			"settings": {
 				"python.defaultInterpreterPath": "/opt/conda/bin/python",
 				"python.linting.enabled": true,
-				"python.linting.pylintEnabled": true,
+				//"python.linting.pylintEnabled": true,
 				//"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
 				//"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
 				//"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
